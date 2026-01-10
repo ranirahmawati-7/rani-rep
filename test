@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About</title>
+  <link rel="stylesheet" href="global.css">
+   <!-- HOME CSS -->
+  <link rel="stylesheet" href="about.css">
+</head>
+<body>
+<header>
+  <div class="logo">SafeFlood</div>
+
+  <div class="menu-toggle" onclick="toggleMenu()">
+    ☰
+  </div>
+
+  <nav id="nav-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="portfolio.html">Portfolio</a>
+  </nav>
+  <button class="dark-btn" onclick="toggleDark()">🌙</button>
+</header>
+
+<main>
+  <h1>ABOUT US</h1>
+   <img src="images/foto-saya.png" alt="Foto Saya" class="profile-img">
+
+   <p class="caption">
+    Halo,:)!.
+   </p>
+
+  <p>Saya sedang membangun website ini !</p>
+</main>
+
+<footer>
+  <p>© 2025 PT.Askrindo</p>
+</footer>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="global.css">
+</body>
+</html>
